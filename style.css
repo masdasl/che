@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 2.6rem;
+}
+
+.container {
+  max-width: 1154px;
+  background-color: #fee2ca;
+  margin: 0 auto;
+}
+.container .about {
+  display: flex;
+  margin-left: 5rem;
+}
+.container .about .address {
+  color: #fc0013;
+  font-size: 13rem;
+}
+.container .about .address span {
+  display: block;
+  color: #1a62a8;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+.container .about .logo {
+  margin-top: 3rem;
+  height: 13.9rem;
+}
+.container .menu {
+  margin-top: 1.8rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+.container .menu .type {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.container .menu .type h3 {
+  color: #fc0013;
+  text-transform: uppercase;
+  margin: 0 3.9rem;
+}
+.container .menu .type .list .items {
+  color: #1a62a8;
+  display: grid;
+  margin: 1rem 0;
+  grid-template-columns: 93% 7%;
+}
+.container .menu .type .list .items .name {
+  flex: 5 1;
+  max-width: 22rem;
+  margin-left: 0.5rem;
+  font-weight: bolder;
+  padding-left: 1rem;
+}
+.container .menu .type .list .items .name span {
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+.container .menu .type .list .items .price {
+  font-size: 1rem;
+  font-weight: bolder;
+}
+.container .menu .image {
+  width: 14.5rem;
+  height: 12.7rem;
+  margin-left: 2rem;
+}
+.container .menu .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container .menu .image-2 {
+  width: 14.5rem;
+  height: 12.7rem;
+  padding-left: 1.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
